@@ -1,2 +1,2 @@
 #!/bin/bash
-mv -t *[A-Z] /tmp/u
+find . -name '[A-Z]*' mv -t /tmp/u
